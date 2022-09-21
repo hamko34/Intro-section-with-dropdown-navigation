@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img class="navbar__logo" src="assets/images/logo.svg" alt="logo" />
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="#" class="navbar__links navbar__feature">Features</a>
+          <img class="feature-arrow" src="assets/images/icon-arrow-down.svg" />
+        </li>
+        <li class="navbar__item">
+          <a href="#" class="navbar__links navbar__company">Company</a>
+          <img class="company-arrow" src="assets/images/icon-arrow-down.svg" />
+        </li>
+        <li class="navbar__item">
+          <a href="#careers" class="navbar__links">Careers</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#about" class="navbar__links">About</a>
+        </li>
+      </ul>
+      <div class="navbar__button">
+        <a href="#" class="navbar__login">Login</a>
+        <a href="#" class="navbar__register">Register</a>
+      </div>
+
+      <ul class="cards cards--features">
+        <li class="cards__item">
+          <img class="cards__icons" src="assets/images/icon-todo.svg" />
+          <a href="#">Todo List</a>
+        </li>
+        <li class="cards__item">
+          <img class="cards__icons" src="assets/images/icon-calendar.svg" />
+          <a href="#">Calender</a>
+        </li>
+        <li class="cards__item">
+          <img class="cards__icons" src="assets/images/icon-reminders.svg" />
+          <a href="#">Reminder</a>
+        </li>
+        <li class="cards__item">
+          <img class="cards__icons" src="assets/images/icon-planning.svg" />
+          <a href="#">Planning</a>
+        </li>
+      </ul>
+      <ul class="cards cards--company">
+        <li class="cards__item"><a href="#">History</a></li>
+        <li class="cards__item"><a href="#">Our Team</a></li>
+        <li class="cards__item"><a href="#">Blog</a></li>
+      </ul>
+
+      <div class="open-sidebar">
+        <img class="open-sidebar-icon" src="assets/images/icon-menu.svg" />
+      </div>
+      <div class="backdrop-overlay">
+        <div class="sidebar-container">
+          <div class="close-sidebar">
+            <img
+              class="close-sidebar-icon"
+              src="assets/images/icon-close-menu.svg"
+            />
+          </div>
+          <div class="sidebar-links">
+            <div class="links dropdown-container">
+              <a class="link-item-features" href="#">
+                <p>Features</p>
+                <img
+                  class="sidebar-features-arrow"
+                  src="assets/images/icon-arrow-down.svg"
+                  alt=""
+                />
+              </a>
+              <ul class="dropdown-features">
+                <li class="dropdown-item">
+                  <img src="assets/images/icon-todo.svg" alt="" />
+                  <a href="#">To do</a>
+                </li>
+                <li class="dropdown-item">
+                  <img src="assets/images/icon-calendar.svg" alt="" />
+                  <a href="#">Calender</a>
+                </li>
+                <li class="dropdown-item">
+                  <img src="assets/images/icon-reminders.svg" alt="" />
+                  <a href="#">Reminder</a>
+                </li>
+                <li class="dropdown-item">
+                  <img src="assets/images/icon-planning.svg" alt="" />
+                  <a href="#">Planning</a>
+                </li>
+              </ul>
+            </div>
+            <div class="links dropdown-container">
+              <a class="link-item-company" href="#">
+                <p>Company</p>
+                <img
+                  class="sidebar-company-arrow"
+                  src="assets/images/icon-arrow-down.svg"
+                  alt=""
+                />
+              </a>
+
+              <ul class="dropdown-company">
+                <li>
+                  <a href="#">History</a>
+                </li>
+                <li>
+                  <a href="#">Our Team</a>
+                </li>
+                <li>
+                  <a href="#">Blog</a>
+                </li>
+              </ul>
+            </div>
+            <div class="links">
+              <a class="link-item" href="#">Careers</a>
+            </div>
+            <div class="links">
+              <a class="link-item" href="#">About</a>
+            </div>
+          </div>
+          <div class="sidebar-btn">
+            <a href="#">Login</a>
+            <a class="sidebar-btn-register" href="#">Register</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main id="main">
+      <div class="hero__container">
+        <div class="hero__description-container">
+          <h1 class="hero__heading">
+            <span class="make">Make</span> remote work
+          </h1>
+          <p class="hero__pharagraph">
+            Get your team in sync, no matter your location. Streamline
+            processes,create team rituals, and watch productivity soar.
+          </p>
+          <button class="hero__btn">Learn more</button>
+          <div class="hero__icons">
+            <img class="icon" src="assets/images/client-databiz.svg" />
+            <img class="icon" src="assets/images/client-audiophile.svg" />
+            <img class="icon" src="assets/images/client-meet.svg" />
+            <img class="icon" src="assets/images/client-maker.svg" />
+          </div>
+        </div>
+        <div class="hero__img-container">
+          <img class="hero__img" src="assets/images/image-hero-desktop.png" />
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
