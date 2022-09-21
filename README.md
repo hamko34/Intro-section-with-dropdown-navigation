@@ -2,6 +2,8 @@
 
 challenge by frontend mentor, done with bare html, css, Javascript.
 
+visit at : https://hamko34.github.io/Intro-section-with-dropdown-navigation/
+
 mobile perspective
 
 ![image](https://user-images.githubusercontent.com/59632483/191472406-7990232e-3494-474c-b1ef-4c41dc1dcba1.png)
